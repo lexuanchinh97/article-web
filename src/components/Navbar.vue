@@ -20,6 +20,11 @@
 <script >
 import axios from "axios";
 export default {
+  metaInfo: {
+    //       title: 'Tiêu đề trang',
+    //       titleTemplate: '%s | My Awesome Webapp'
+    meta: { viewport: "width=device-width,initial-scale=1,user-scalable=no" },
+  },
   data() {
     return {
       listCategory: [],
@@ -45,37 +50,6 @@ export default {
 </script>
 
 <style>
-/* ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover:not(.active) {
-  background-color: #111;
-}
-
-.active {
-  background-color: #4caf50;
-} */
-
 * {
   padding: 0;
   margin: 0;
@@ -123,7 +97,7 @@ a:hover {
   font-size: 30px;
   color: white;
   float: right;
-  line-height: 80px;
+  line-height: 60px;
   margin-right: 40px;
   cursor: pointer;
   display: none;
@@ -131,7 +105,7 @@ a:hover {
 #check {
   display: none;
 }
-/* @media (max-width: 952px) {
+@media (max-width: 952px) {
   label.logo {
     font-size: 30px;
     padding-left: 50px;
@@ -140,7 +114,7 @@ a:hover {
     font-size: 16px;
   }
 }
-@media (max-width: 858px) {
+@media (max-width: 600px) {
   .checkbtn {
     display: block;
   }
@@ -170,7 +144,7 @@ a:hover {
   #check:checked ~ ul {
     left: 0;
   }
-} */
+}
 section {
   /* background: url() no-repeat; */
   background-size: cover;
