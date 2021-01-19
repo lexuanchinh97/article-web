@@ -1,18 +1,20 @@
 <template>
   <div class="navbar">
     <nav>
-      <input type="checkbox" id="check" />
-      <label for="check" class="checkbtn">
-        <i class="fas fa-bars"></i>
-      </label>
-      <label class="logo">DesignX</label>
-      <ul>
-        <li v-for="category in listCategory" v-bind:key="category.id">
-          <router-link :to="category.actionName">{{
-            category.name
-          }}</router-link>
-        </li>
-      </ul>
+      <div class="menu">
+        <input type="checkbox" id="check" />
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo">Logo</label>
+        <ul>
+          <li v-for="category in listCategory" v-bind:key="category.id">
+            <router-link :to="category.actionName">{{
+              category.name
+            }}</router-link>
+          </li>
+        </ul>
+      </div>
     </nav>
   </div>
 </template>
@@ -67,9 +69,9 @@ nav {
 }
 label.logo {
   color: white;
-  font-size: 35px;
+  font-size: 30px;
   line-height: 60px;
-  padding: 0 100px;
+  /* padding: 0 100px; */
   font-weight: bold;
   float: left;
 }
@@ -104,6 +106,12 @@ a:hover {
 }
 #check {
   display: none;
+}
+@media screen and (min-width: 1024px) {
+  .menu {
+    max-width: 970px;
+    margin: 0 auto;
+  }
 }
 @media (max-width: 952px) {
   label.logo {
