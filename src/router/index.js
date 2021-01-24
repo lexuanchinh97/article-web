@@ -3,7 +3,7 @@ import Router from 'vue-router'
 import axios from 'axios'
 import VueAxios from 'vue-axios'
 import Category from '@/components/Category'
-import Home from '@/components/Home'
+import Home from '@/components/Home/Home.vue'
 import Meta from 'vue-meta'
 
 Vue.use(Router)
