@@ -22,11 +22,11 @@
 <script >
 import axios from "axios";
 export default {
-  metaInfo: {
-    //       title: 'Tiêu đề trang',
-    //       titleTemplate: '%s | My Awesome Webapp'
-    meta: { viewport: "width=device-width,initial-scale=1,user-scalable=no" },
-  },
+  // metaInfo: {
+  //   //       title: 'Tiêu đề trang',
+  //   //       titleTemplate: '%s | My Awesome Webapp'
+  //   meta: { viewport: "width=device-width,initial-scale=1,user-scalable=no" },
+  // },
   data() {
     return {
       listCategory: [],

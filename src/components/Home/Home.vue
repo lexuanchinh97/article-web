@@ -1,11 +1,13 @@
 <template>
   <div class="home">
     <div class="container">
-      <div class="col-8 hot-new">
-        <hotnew />
+      <div class="col-8">
+        <hotnew/>
+        <news/>
+        <itemcontent/>
       </div>
-      <div class="col-4 right-content">
-        <!-- <sidebar/> -->
+      <div class="col-4">
+        <sidebar/>
       </div>
     </div>
   </div>
@@ -13,13 +15,15 @@
 
 <script>
 import hotnew from "../HotNew/HotNew.vue";
-import sidebar from "../SideBar/RightContent.vue";
+import sidebar from "../SideBar/SideBar.vue";
+import news from "../New/New.vue";
+import itemcontent from "../ItemContent/ItemContent.vue"
 export default {
-  components: { hotnew, sidebar },
+  components: { hotnew, sidebar, news, itemcontent },
   name: "Home",
   data() {
     return {
-      msg: "Home page",
+      msg: "Home page",   
     };
   },
 };
