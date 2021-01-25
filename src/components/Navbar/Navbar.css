@@ -21,6 +21,9 @@
     font-weight: bold;
     float: left;
   }
+  .menu {
+    padding: 0px 5px;
+  }
   nav ul {
     /* float: right; */
     margin-right: 20px;

@@ -4,7 +4,7 @@
         <a class="imghover" href="">
           <figure> 
           <img
-            src="https://image.thanhnien.vn/660x370/uploaded/minhgiao/2021_01_19/hoang-sa-afp_exxp.jpg"
+            src="http://localhost:8888/wp-content/uploads/2018/11/ttrefregfbvf-720x540.jpg"
             alt="hihi"
             style="width: 100%"
           />
@@ -18,7 +18,7 @@
         <a class="imghover" href="">
           <figure> 
           <img
-            src="https://image.thanhnien.vn/660x370/uploaded/minhgiao/2021_01_19/hoang-sa-afp_exxp.jpg"
+            src="http://localhost:8888/wp-content/uploads/2018/11/ttrefregfbvf-720x540.jpg"
             alt="hihi"
             style="width: 100%"
           />
@@ -32,7 +32,7 @@
         <a class="imghover" href="">
           <figure> 
           <img
-            src="https://image.thanhnien.vn/660x370/uploaded/minhgiao/2021_01_19/hoang-sa-afp_exxp.jpg"
+            src="http://localhost:8888/wp-content/uploads/2018/11/ttrefregfbvf-720x540.jpg"
             alt="hihi"
              style="width: 100%"
           >

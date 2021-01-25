@@ -3,7 +3,7 @@
     <a class="imghover" href="abcd">
       <figure>
         <img
-          src="https://image.thanhnien.vn/660x370/uploaded/minhgiao/2021_01_19/hoang-sa-afp_exxp.jpg"
+          src="http://localhost:8888/wp-content/uploads/2018/11/ghhjgh-800x450.jpeg"
           alt="hihi"
           style="width: 100%"
         />
@@ -25,11 +25,12 @@ export default {};
 
 figure {
   width: 100%;
-  height: 300px;
+  height: 350px;
   margin: 0;
   padding: 0;
   background: #fff;
   overflow: hidden;
+  box-sizing: border-box;
 }
 figure:hover + span {
   bottom: -36px;
@@ -41,11 +42,11 @@ figure:hover + span {
   transform: scale(1);
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
+
 }
 .imghover figure:hover img {
   -webkit-transform: scale(1.05);
   transform: scale(1.05);
-  width: 100%;
 }
 
 .story {
