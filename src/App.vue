@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div class="article" id="app">
     <!-- <img src="./assets/logo.png"> -->
     <navbar/>
     <router-view/>
@@ -23,4 +23,8 @@ export default {
   color: #2c3e50;
   margin-top: 60px; */
 /* } */
+body {
+  margin: 0 0;
+  padding: 0 0;
+}
 </style>

@@ -1,5 +1,11 @@
 <template>
   <div class="row">
+    <div class="col-12 banner">
+      <a href="">
+        <img width="100%" src="http://localhost:8888/wp-content/uploads/2018/12/advt-1170-200.png" alt="">
+      </a>
+    </div>
+
     <div class="col-12 section-title">
       <h2>Agriculture news</h2>
     </div>
