@@ -1,35 +1,199 @@
 <template>
-  <nav>
-    <div class="menu" id="menu">
-      <div class="topnav" id="myTopnav">
-        <a style="padding: 8px 14px !important" href=""
-          ><span class="fa fa-home desktop-home"></span
-          ><span class="mobile-show">Home</span>
-        </a>
-        <a href="#news">News</a>
-        <a href="#contact">Contact</a>
-        <div class="dropdown">
-          <button class="dropbtn">
-            Dropdown
-            <!-- <i class="fa fa-caret-down"></i> -->
-          </button>
-          <div class="dropdown-content">
-            <a href="#">Link 1</a>
-            <a href="#">Link 2</a>
-            <a href="#">Link 3</a>
-          </div>
-        </div>
-        <a href="#about">About</a>
-        <a
-          href="javascript:void(0);"
-          style="padding: 4px 14px !important; font-size: 23px"
-          class="icon"
-          @click="myFunction()"
-          >&#9776;</a
-        >
+  <div class="test">
+    <nav class="navbar" role="navigation" id="navbar">
+      <div class="nav-content" id="nav-content">
+        <ul>
+          <li>
+            <a href="">
+              <span class="fa fa-home desktop-home"></span>
+              <span class="mobile-show">Home</span>
+            </a>
+          </li>
+          <li>
+            <a href="">News</a>
+          </li>
+          <li>
+            <a href="#">Two</a>
+            <ul class="dropdown">
+              <li><a href="#">Sub-1</a></li>
+              <li><a href="#">Sub-2</a></li>
+              <li><a href="#">Sub-3</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="">Contact</a>
+          </li>
+          <li>
+            <a href="">Contact</a>
+          </li>
+          <li class="icon-menu">
+            <a class="icon" @click="myFunction()">&#9776; </a>
+          </li>
+        </ul>
       </div>
+    </nav>
+
+    <div class="content">
+      <h3>Sticky Navigation Example</h3>
+      <p>
+        The navbar will stick to the top when you reach its scroll position.
+      </p>
+      <p>
+        Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum
+        definitiones no quo, maluisset concludaturque et eum, altera fabulas ut
+        quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert
+        laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no
+        molestiae voluptatibus.
+      </p>
+      <p>
+        Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum
+        definitiones no quo, maluisset concludaturque et eum, altera fabulas ut
+        quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert
+        laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no
+        molestiae voluptatibus.
+      </p>
+      <p>
+        Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum
+        definitiones no quo, maluisset concludaturque et eum, altera fabulas ut
+        quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert
+        laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no
+        molestiae voluptatibus.
+      </p>
+      <p>
+        Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum
+        definitiones no quo, maluisset concludaturque et eum, altera fabulas ut
+        quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert
+        laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no
+        molestiae voluptatibus.
+      </p>
+      <p>
+        Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum
+        definitiones no quo, maluisset concludaturque et eum, altera fabulas ut
+        quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert
+        laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no
+        molestiae voluptatibus.
+      </p>
+      <p>
+        Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum
+        definitiones no quo, maluisset concludaturque et eum, altera fabulas ut
+        quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert
+        laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no
+        molestiae voluptatibus.
+      </p>
+      <p>
+        Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum
+        definitiones no quo, maluisset concludaturque et eum, altera fabulas ut
+        quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert
+        laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no
+        molestiae voluptatibus.
+      </p>
+
+      <p>
+        The navbar will stick to the top when you reach its scroll position.
+      </p>
+      <p>
+        Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum
+        definitiones no quo, maluisset concludaturque et eum, altera fabulas ut
+        quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert
+        laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no
+        molestiae voluptatibus.
+      </p>
+      <p>
+        Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum
+        definitiones no quo, maluisset concludaturque et eum, altera fabulas ut
+        quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert
+        laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no
+        molestiae voluptatibus.
+      </p>
+      <p>
+        Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum
+        definitiones no quo, maluisset concludaturque et eum, altera fabulas ut
+        quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert
+        laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no
+        molestiae voluptatibus.
+      </p>
+      <p>
+        Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum
+        definitiones no quo, maluisset concludaturque et eum, altera fabulas ut
+        quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert
+        laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no
+        molestiae voluptatibus.
+      </p>
+      <p>
+        Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum
+        definitiones no quo, maluisset concludaturque et eum, altera fabulas ut
+        quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert
+        laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no
+        molestiae voluptatibus.
+      </p>
+      <p>
+        Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum
+        definitiones no quo, maluisset concludaturque et eum, altera fabulas ut
+        quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert
+        laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no
+        molestiae voluptatibus.
+      </p>
+      <p>
+        Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum
+        definitiones no quo, maluisset concludaturque et eum, altera fabulas ut
+        quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert
+        laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no
+        molestiae voluptatibus.
+      </p>
+      <p>
+        The navbar will stick to the top when you reach its scroll position.
+      </p>
+      <p>
+        Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum
+        definitiones no quo, maluisset concludaturque et eum, altera fabulas ut
+        quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert
+        laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no
+        molestiae voluptatibus.
+      </p>
+      <p>
+        Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum
+        definitiones no quo, maluisset concludaturque et eum, altera fabulas ut
+        quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert
+        laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no
+        molestiae voluptatibus.
+      </p>
+      <p>
+        Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum
+        definitiones no quo, maluisset concludaturque et eum, altera fabulas ut
+        quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert
+        laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no
+        molestiae voluptatibus.
+      </p>
+      <p>
+        Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum
+        definitiones no quo, maluisset concludaturque et eum, altera fabulas ut
+        quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert
+        laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no
+        molestiae voluptatibus.
+      </p>
+      <p>
+        Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum
+        definitiones no quo, maluisset concludaturque et eum, altera fabulas ut
+        quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert
+        laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no
+        molestiae voluptatibus.
+      </p>
+      <p>
+        Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum
+        definitiones no quo, maluisset concludaturque et eum, altera fabulas ut
+        quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert
+        laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no
+        molestiae voluptatibus.
+      </p>
+      <p>
+        Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum
+        definitiones no quo, maluisset concludaturque et eum, altera fabulas ut
+        quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert
+        laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no
+        molestiae voluptatibus.
+      </p>
     </div>
-  </nav>
+  </div>
 </template>
 
 <script >
@@ -47,15 +211,15 @@ export default {
   },
   methods: {
     myFunction() {
-      var x = document.getElementById("myTopnav");
-      if (x.className === "topnav") {
+      var x = document.getElementById("nav-content");
+      if (x.className === "nav-content") {
         x.className += " responsive";
         console.log(x.className);
       } else {
-        x.className = "topnav";
+        x.className = "nav-content";
         console.log(x.className);
       }
-    },
+    }
   },
   computed: {},
   created() {
@@ -73,17 +237,34 @@ export default {
     document.head.appendChild(recaptchaScript);
   },
 };
-window.onscroll = function() {scrollFunction()};
-function scrollFunction() {
+// window.onscroll = function() {scrollFunction()};
+// function scrollFunction() {
 
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-      console.log("menu");
-    document.getElementById("myTopnav").style.top = "0";
-  } else {
-      console.log("menu");
-    document.getElementById("myTopnav").style.top = "-50px";
+//   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+//       console.log("menu");
+//     document.getElementById("myTopnav").style.top = "0";
+//   } else {
+//       console.log("menu");
+//     document.getElementById("myTopnav").style.top = "-50px";
+//   }
+// }
+
+// window.onscroll = function() {myFunction()};
+
+document.addEventListener("DOMContentLoaded", function () {
+  window.addEventListener("scroll", myFunction);
+  var navbar = document.getElementById("navbar");
+  var sticky = navbar.offsetTop;
+
+  function myFunction() {
+    console.log("chinh");
+    if (window.pageYOffset >= sticky) {
+      navbar.classList.add("sticky");
+    } else {
+      navbar.classList.remove("sticky");
+    }
   }
-}
+});
 </script>
 
 <style>

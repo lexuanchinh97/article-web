@@ -1,15 +1,69 @@
 <template>
-  <div class="home">
-    <div class="container">
-      <div class="col-8">
-        <hotnew/>
-        <news/>
-        <itemcontent/>
-      </div>
-      <div class="col-4">
-        <sidebar/>
-      </div>
-    </div>
+  <div class="test">
+     <h1>Fixed Top Menu</h1>
+  <h2>Scroll this page to see the effect</h2>
+  <h2>The navigation bar will stay at the top of the page while scrolling</h2>
+
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
   </div>
 </template>
 

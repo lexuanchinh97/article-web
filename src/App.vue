@@ -1,30 +1,28 @@
 <template>
-  <div class="article" id="app">
+  <div class="app">
     <!-- <img src="./assets/logo.png"> -->
+    <comp-header/>
     <navbar/>
-    <router-view/>
+    <!-- <router-view/> -->
   </div>
 </template>
 
 <script>
+import Header from './components/Header/Header.vue'
 import navbar from './components/Navbar/Navbar.vue'
 export default {
-  components: { navbar },
-  name: 'App'
-}
+  components: {
+     navbar, 
+     'comp-header' : Header
+    }
+  }
 </script>
 
 <style>
-/* #app { */
-  /* font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px; */
-/* } */
+
 body {
   margin: 0 0;
   padding: 0 0;
-}
+  font-family: Arial, Helvetica, sans-serif;
+} 
 </style>
