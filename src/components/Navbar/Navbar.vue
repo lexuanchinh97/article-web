@@ -12,7 +12,7 @@
           <li>
             <a href="">News</a>
           </li>
-          <li>
+          <li class="expand">
             <a href="#">Two</a>
             <ul class="dropdown">
               <li><a href="#">Sub-1</a></li>
