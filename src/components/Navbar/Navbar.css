@@ -22,12 +22,16 @@
 
 .navbar li a {
   color: white;
-  font-size: 18px;
+  font-size: 19px;
 }
 
 div.nav-content > ul li {
   float: left;
   display: block;
+}
+
+.navbar .nav-content .icon-menu {
+  display: none;
 }
 
 div.nav-content ul li > ul li {
@@ -54,7 +58,7 @@ div.nav-content ul li > ul {
 
 .desktop-home {
   display: block;
-  font-size: 18px;
+  font-size: 22px;
 }
 
 .navbar .nav-content .icon {
@@ -95,6 +99,12 @@ div.nav-content ul li > ul {
     float: right;
     padding: 6px 8px !important;
     z-index: 10;
+    font-size: 22px;
+    color: white;
+  }
+
+  .navbar .nav-content .icon-menu {
+    display: block;
   }
 
   .navbar li:not(:first-child, :last-child) {
@@ -119,6 +129,7 @@ div.nav-content ul li > ul {
 
   div.nav-content ul li > ul {
     position: relative;
+    display: block;
   }
 
   div.nav-content ul li > ul li {

@@ -27,7 +27,7 @@
             <a href="">Contact</a>
           </li>
           <li class="icon-menu">
-            <a class="icon" @click="myFunction()">&#9776; </a>
+            <i class="fa fa-bars" @click="myFunction()"></i>
           </li>
         </ul>
       </div>
