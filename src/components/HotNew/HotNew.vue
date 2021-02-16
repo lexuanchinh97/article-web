@@ -17,7 +17,7 @@
 </template>
 
 <script>
-export default {};
+export default {  };
 </script>
 
 <style scoped>
@@ -51,16 +51,16 @@ figure:hover + span {
 }
 
 .story {
-  padding: 0 4px 0 0;
+  padding: 8px 8px;
 }
 .story h2 {
   margin: 0 0;
-  padding: 8px 8px;
+  padding: 8px 0;
 }
 
 .story p {
   margin: 0 0;
-  padding: 4px 8px;
+  padding: 4px 0;
   font-size: 12px;
   color: #888;
 }
@@ -72,7 +72,7 @@ figure:hover + span {
 
 @media screen and (max-width: 600px) {
   .story {
-    padding: 0 0;
+    padding: 4px 0;
   }
 }
 </style>

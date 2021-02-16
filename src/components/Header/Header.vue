@@ -15,13 +15,19 @@ export default {};
 .header img {
   width: 100%;
   margin: 0 auto;
-  padding: 0 0px;
+  vertical-align:bottom;
 }
 @media screen and (min-width: 1024px) {
   .header {
     max-width: 970px;
     margin: 0 auto;
-    padding: 0 0px;
+    padding: 8px 0 8px 16px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+    padding: 4px 0;
   }
 }
 </style>

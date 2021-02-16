@@ -147,6 +147,6 @@ div.nav-content ul li > ul {
   .nav-content {
     max-width: 970px;
     margin: 0 auto;
-    padding: 0 0px;
+    padding: 0 0 0 16px;
   }
 }
