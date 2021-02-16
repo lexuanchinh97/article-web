@@ -11,6 +11,10 @@
     width: 100%;
   }
 
+  .home .container {
+    padding: 4px 0;
+  }
+
   @media screen and (min-width: 1024px) {
     .container {
       max-width: 970px;
