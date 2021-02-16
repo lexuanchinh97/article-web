@@ -60,7 +60,7 @@ figure:hover + span {
 
 .story p {
   margin: 0 0;
-  padding: 4px 0;
+  padding: 0px 0;
   font-size: 12px;
   color: #888;
 }
