@@ -3,7 +3,7 @@
     <!-- <img src="./assets/logo.png"> -->
     <comp-header/>
     <navbar/>
-    <!-- <router-view/> -->
+    <router-view/>
   </div>
 </template>
 
@@ -12,7 +12,7 @@ import Header from './components/Header/Header.vue'
 import navbar from './components/Navbar/Navbar.vue'
 export default {
   components: {
-     navbar, 
+     navbar,
      'comp-header' : Header
     }
   }
@@ -24,5 +24,5 @@ body {
   margin: 0 0;
   padding: 0 0;
   font-family: Arial, Helvetica, sans-serif;
-} 
+}
 </style>

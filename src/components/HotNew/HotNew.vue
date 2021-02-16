@@ -17,7 +17,7 @@
 <script>
 export default {};
 </script>
-    
+
 <style scoped>
 .story h1:hover {
   color: #0082e6;
@@ -25,10 +25,9 @@ export default {};
 
 figure {
   width: 100%;
-  height: 350px;
   margin: 0;
   padding: 0;
-  background: #fff;
+  background: red;
   overflow: hidden;
   box-sizing: border-box;
 }
@@ -42,7 +41,7 @@ figure:hover + span {
   transform: scale(1);
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
-
+  vertical-align:bottom;
 }
 .imghover figure:hover img {
   -webkit-transform: scale(1.05);
@@ -50,7 +49,7 @@ figure:hover + span {
 }
 
 .story {
-  padding: 0.3em 0.3em;
+  padding: 0 0;
 }
 .story h1 {
   margin: 0.3em 0em;

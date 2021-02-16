@@ -1,6 +1,7 @@
 .navbar {
   background: #333 !important;
   overflow: hidden;
+  z-index: 1000;
 }
 
 .navbar a {
@@ -130,6 +131,7 @@ div.nav-content ul li > ul {
   div.nav-content ul li > ul {
     position: relative;
     display: block;
+    z-index: 10000;
   }
 
   div.nav-content ul li > ul li {
