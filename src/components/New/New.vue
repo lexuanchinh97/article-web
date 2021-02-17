@@ -12,7 +12,7 @@
             </figure>
           </a>
           <a href="">
-            <h4>Ông Trump chia tay Nhà Trắng, ông Biden tới Điện Capitol</h4>
+            <h4>Thủ tướng Nguyễn Xuân Phúc: Không để 'tháng Giêng là tháng ăn chơi</h4>
           </a>
           <p>13 Giờ Trước</p>
         </div>
@@ -48,7 +48,7 @@
             </figure>
           </a>
           <a href="">
-            <h4>Ông Trump chia tay Nhà Trắng, ông Biden tới Điện Capitol</h4>
+            <h4>Hà Nội xét nghiệm COVID-19 với tất cả người đến từ Hải Dương</h4>
           </a>
           <p>13 Giờ Trước</p>
         </div>

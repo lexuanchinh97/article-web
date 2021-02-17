@@ -10,7 +10,7 @@
       </figure>
     </a>
     <a href="">
-      <h2>Ông Huy chia tay Nhà Trắng, ông Biden tới Điện Capitol</h2>
+      <h2>Cập nhật lịch nghỉ học, đi học trở lại của học sinh 63 tỉnh, thành</h2>
     </a>
     <p>13 Giờ Trước</p>
   </div>
@@ -72,7 +72,7 @@ figure:hover + span {
 
 @media screen and (max-width: 600px) {
   .story {
-    padding: 4px 0;
+    padding: 4px 4px;
   }
 }
 </style>
