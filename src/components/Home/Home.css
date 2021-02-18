@@ -13,12 +13,14 @@
 
   .home .container {
     padding: 0 0;
+    overflow: hidden
   }
 
   @media screen and (min-width: 1024px) {
     .container {
       max-width: 970px;
       margin: 0 auto;
+      height: 100%;
     }
   }
 
