@@ -4,6 +4,7 @@
       <div class="col-4">
         <div class="footer-left">
           <h3>About<span>Eduonix</span></h3>
+          <p class="footer-company-name">Lorem Ipsum is simply dummy text of the printing</p>
           <p class="footer-company-name">© 2019 Eduonix Learning Solutions Pvt. Ltd.</p>
         </div>
 
@@ -13,9 +14,8 @@
           <ul>
             <li>
                 <i class="fa fa-map-marker"></i>
-                <p style="margin-left: 10px"><span>309 - Rupa Solitaire,
-             Bldg. No. A - 1, Sector - 1</span>
-                  Mahape, Navi Mumbai - 400710</p>
+                <p style="margin-left: 10px"><span>226, Lý Thường Kiệt, Phường 14, Quận 10, Hồ Chí Minh</span>
+                </p>
             </li>
 
             <li>
@@ -35,7 +35,18 @@
       </div>
 
       <div class="col-4">
-        <p>test</p>
+        <div class="footer-right">
+          <p class="footer-company-about">
+            <span>About the company</span>
+            We offer training and skill building courses across Technology, Design, Management, Science and Humanities.</p>
+          <div class="footer-icons">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-youtube"></i></a>
+          </div>
+        </div>
       </div>
     </div>
   </footer>
@@ -55,7 +66,7 @@ footer{
   background-color: #2c292f;
   color: white;
   text-align: center;
-  padding: 40px 40px;
+  padding: 50px 50px;
 }
 
 .row .footer-company-name{
@@ -66,8 +77,14 @@ footer{
   text-align: left;
 }
 
-footer .row h3 {
+footer .footer-left h3 {
   text-align: left;
+  margin: 0 0;
+  padding: 8px 8px;
+}
+
+footer .footer-left p {
+  padding: 8px 8px;
 }
 
 footer .footer-center i {
@@ -83,17 +100,9 @@ footer .footer-center i {
   vertical-align: center;
 }
 
-footer .footer-center i.fa-envelope{
+footer .footer-center i.fa-envelope {
   font-size: 17px;
   line-height: 38px;
-}
-
-footer .footer-center {
-  margin-top: 20px;
-}
-
-footer .footer-left {
-  padding: 8px 8px;
 }
 
 footer .footer-center p {
@@ -126,6 +135,59 @@ footer .footer-center ul li {
 footer .footer-center ul {
   margin: 0 0;
   padding: 0 0;
+}
+
+footer .footer-company-about{
+  line-height: 20px;
+  color:  #92999f;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+}
+
+footer .footer-company-about span{
+  display: block;
+  color:  #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+footer .footer-icons{
+  margin-top: 25px;
+  margin-left: 8px;
+}
+
+footer .footer-icons a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color:  #33383b;
+  border-radius: 2px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  vertical-align: center;
+  float: left;
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+
+footer .footer-right p {
+  text-align: left;
+  padding: 8px 8px;
+}
+
+@media only screen and (max-width: 600px) {
+  footer .footer-center {
+    margin-top: 40px;
+  }
+
+  footer .footer-right {
+    margin-top: 40px;
+  }
 }
 
 </style>
