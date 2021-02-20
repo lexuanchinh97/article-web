@@ -257,13 +257,14 @@
       </div>
     </div>
 
-
+    <advertisement></advertisement>
   </div>
 </template>
 
 <script>
+import Advertisement from "./Advertisement";
 export default {
-
+  components: {Advertisement}
 }
 </script>
 
