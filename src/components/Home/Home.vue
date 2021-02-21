@@ -2,9 +2,10 @@
   <div class="home">
     <div class="container">
       <div class="col-8">
-        <hotnew/>
-        <news/>
-        <itemcontent/>
+<!--        <hotnew/>-->
+<!--        <news/>-->
+<!--        <itemcontent/>-->
+        <post></post>
       </div>
       <div class="col-4">
         <sidebar/>
@@ -20,9 +21,10 @@ import sidebar from "../SideBar/SideBar.vue";
 import news from "../New/New.vue";
 import itemcontent from "../ItemContent/ItemContent.vue"
 import Advertisement from "../SideBar/Advertisement";
+import Post from "../Post/Post";
 
 export default {
-  components: {Advertisement, hotnew, sidebar, news, itemcontent},
+  components: {Post, Advertisement, hotnew, sidebar, news, itemcontent},
   name: "Home",
   data() {
     return {

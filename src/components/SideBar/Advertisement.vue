@@ -34,9 +34,8 @@
     padding: 8px 8px;
   }
   .advertisement {
-    /*padding: 8px 8px;*/
-    /*margin-top: 16px;*/
     position: sticky;
+    position: -webkit-sticky;
     top: 40px;
   }
   .advertisement img {
