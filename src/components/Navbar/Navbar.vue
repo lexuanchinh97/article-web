@@ -48,7 +48,7 @@ export default {
   },
   methods: {
     myFunction() {
-      var x = document.getElementById("nav-content");
+      let x = document.getElementById("nav-content");
       if (x.className === "nav-content") {
         x.className += " responsive";
         console.log(x.className);
@@ -90,11 +90,10 @@ export default {
 
 document.addEventListener("DOMContentLoaded", function () {
   window.addEventListener("scroll", myFunction);
-  var navbar = document.getElementById("navbar");
-  var sticky = navbar.offsetTop;
+  let navbar = document.getElementById("navbar");
+  let sticky = navbar.offsetTop;
 
   function myFunction() {
-    console.log("chinh");
     if (window.pageYOffset >= sticky) {
       navbar.classList.add("sticky");
     } else {

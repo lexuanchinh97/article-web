@@ -1,5 +1,5 @@
 <template>
-  <div class="row side-bar">
+  <div class="row side-bar" id="sideBar">
     <div class="row new">
       <div class="row">
         <h3>Tin Mới</h3>
@@ -257,7 +257,6 @@
       </div>
     </div>
 
-    <advertisement></advertisement>
   </div>
 </template>
 
@@ -292,6 +291,7 @@ figure {
 .side-bar {
   padding: 8px 8px;
   /*background: red;*/
+  /*display: flex;*/
 }
 
 .side-bar .new {

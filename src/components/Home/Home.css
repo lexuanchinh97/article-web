@@ -13,7 +13,7 @@
 
   .home .container {
     padding: 0 0;
-    overflow: hidden
+    display: flex;
   }
 
   @media screen and (min-width: 1024px) {
@@ -131,5 +131,13 @@
       max-width: 80%;
       margin: 0 auto;
     } */
+  }
+
+  @media only screen and (max-width: 600px) {
+    .home .container {
+      padding: 0 0;
+      display: block;
+      overflow: hidden;
+    }
   }
 

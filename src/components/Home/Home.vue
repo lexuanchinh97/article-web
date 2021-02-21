@@ -8,6 +8,7 @@
       </div>
       <div class="col-4">
         <sidebar/>
+        <advertisement/>
       </div>
     </div>
   </div>
@@ -18,9 +19,10 @@ import hotnew from "../HotNew/HotNew.vue";
 import sidebar from "../SideBar/SideBar.vue";
 import news from "../New/New.vue";
 import itemcontent from "../ItemContent/ItemContent.vue"
+import Advertisement from "../SideBar/Advertisement";
 
 export default {
-  components: {hotnew, sidebar, news, itemcontent},
+  components: {Advertisement, hotnew, sidebar, news, itemcontent},
   name: "Home",
   data() {
     return {
