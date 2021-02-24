@@ -59,7 +59,7 @@ div.nav-content ul li > ul {
 
 .desktop-home {
   display: block;
-  font-size: 22px;
+  margin: 0 0;
 }
 
 .navbar .nav-content .icon {

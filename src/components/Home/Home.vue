@@ -1,11 +1,12 @@
 <template>
   <div class="home">
     <div class="container">
+
       <div class="col-8">
-<!--        <hotnew/>-->
-<!--        <news/>-->
-<!--        <itemcontent/>-->
-        <post></post>
+        <hotnew/>
+        <news/>
+        <itemcontent/>
+<!--        <post></post>-->
       </div>
       <div class="col-4">
         <sidebar/>
