@@ -2,7 +2,7 @@
   <div class="row item-list">
     <div class="col-12 banner">
       <a href="">
-        <img width="100%" src="http://localhost:8888/wp-content/uploads/2018/12/advt-1170-200.png" alt="">
+        <img width="100%" src="./assets/header.png" alt="">
       </a>
     </div>
 

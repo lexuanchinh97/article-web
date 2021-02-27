@@ -33,7 +33,7 @@
           <h3>Follow Us</h3>
           <ul>
             <li>
-              <a href="">
+              <a href="https://www.facebook.com/" target="_blank">
                 <icon :icon="{prefix: 'fab', iconName: 'facebook'}" size="2x" ></icon>
               </a>
             </li>

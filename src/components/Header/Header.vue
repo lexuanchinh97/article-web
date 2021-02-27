@@ -2,7 +2,7 @@
   <header class="header">
     <div class="banner">
       <img
-        src="http://localhost:8888/wp-content/uploads/2018/12/advt-768-90.png"
+        src="./assets/header.png"
         alt=""
       />
     </div>

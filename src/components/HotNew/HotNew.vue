@@ -3,7 +3,7 @@
     <a class="imghover" href="abcd">
       <figure>
         <img
-          src="http://localhost:8888/wp-content/uploads/2018/11/ghhjgh-800x450.jpeg"
+          src="./assets/HotNew.png"
           alt="hihi"
           style="width: 100%"
         />

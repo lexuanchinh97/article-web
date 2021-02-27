@@ -5,7 +5,7 @@
           <a class="imghover" href="">
             <figure>
               <img
-                src="http://localhost:8888/wp-content/uploads/2018/11/ttrefregfbvf-720x540.jpg"
+                src="./assets/new.png"
                 alt="hihi"
                 style="width: 100%"
               />
@@ -23,7 +23,7 @@
           <a class="imghover" href="">
             <figure>
               <img
-                src="http://localhost:8888/wp-content/uploads/2018/11/ttrefregfbvf-720x540.jpg"
+                src="./assets/new.png"
                 alt="hihi"
                 style="width: 100%"
               />
@@ -41,7 +41,7 @@
           <a class="imghover" href="">
             <figure>
               <img
-                src="http://localhost:8888/wp-content/uploads/2018/11/ttrefregfbvf-720x540.jpg"
+                src="./assets/new.png"
                 alt="hihi"
                 style="width: 100%"
               >
