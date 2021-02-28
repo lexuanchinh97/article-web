@@ -3,10 +3,11 @@
     <div class="container">
 
       <div class="col-8">
-        <hotnew/>
-        <news/>
-        <itemcontent/>
-<!--        <post></post>-->
+<!--        <hotnew/>-->
+<!--        <news/>-->
+<!--        <itemcontent/>-->
+        <post></post>
+        <related-post></related-post>
       </div>
       <div class="col-4">
         <sidebar/>
@@ -23,9 +24,10 @@ import news from "../New/New.vue";
 import itemcontent from "../ItemContent/ItemContent.vue"
 import Advertisement from "../SideBar/Advertisement";
 import Post from "../Post/Post";
+import RelatedPost from "../Post/RelatedPost";
 
 export default {
-  components: {Post, Advertisement, hotnew, sidebar, news, itemcontent},
+  components: {RelatedPost, Post, Advertisement, hotnew, sidebar, news, itemcontent},
   name: "Home",
   data() {
     return {

@@ -70,13 +70,15 @@
 
 <style>
   .post {
-    /*padding: 8px 8px;*/
+    padding: 8px 8px;
   }
   .post .title {
-    padding: 0 16px;
+    /*padding: 0 16px;*/
   }
   .post .time {
     color: #626161;
-    padding-left: 16px;
+  }
+  .post .content {
+    padding: 0 0;
   }
 </style>
