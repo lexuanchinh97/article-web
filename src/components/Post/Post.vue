@@ -6,6 +6,8 @@
     <span class="time">
       21-02-2021 - 07:27 PM
     </span>
+    <span> | </span>
+    <Strong>Giáo dục</Strong>
     <div v-html="content" class="content">
 
     </div>
@@ -75,6 +77,6 @@
   }
   .post .time {
     color: #626161;
-    padding: 0 16px;
+    padding-left: 16px;
   }
 </style>
