@@ -4,15 +4,15 @@
         <ul>
           <li>
             <a href="">
-              <span class="fa fa-home desktop-home"></span>
+              <icon icon='home' class="desktop-home"></icon>
               <span class="mobile-show">Home</span>
             </a>
           </li>
           <li>
-            <a href="">News</a>
+            <a href="">Thể Thao</a>
           </li>
           <li class="expand">
-            <a href="#">Two</a>
+            <a href="#">Bóng Đá</a>
             <ul class="dropdown">
               <li><a href="#">Sub-1</a></li>
               <li><a href="#">Sub-2</a></li>
@@ -20,13 +20,13 @@
             </ul>
           </li>
           <li>
-            <a href="">Contact</a>
+            <a href="">Du Lịch</a>
           </li>
           <li>
-            <a href="">Contact</a>
+            <a href="">Đời Sống</a>
           </li>
           <li class="icon-menu">
-            <i class="fa fa-bars" @click="myFunction()"></i>
+            <icon icon="bars" @click="myFunction()"></icon>
           </li>
         </ul>
       </div>
@@ -66,27 +66,9 @@ export default {
       .catch((error) => console.log(error));
   },
   mounted() {
-    let recaptchaScript = document.createElement("script");
-    recaptchaScript.setAttribute(
-      "src",
-      "https://kit.fontawesome.com/a076d05399.js"
-    );
-    document.head.appendChild(recaptchaScript);
+
   },
 };
-// window.onscroll = function() {scrollFunction()};
-// function scrollFunction() {
-
-//   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-//       console.log("menu");
-//     document.getElementById("myTopnav").style.top = "0";
-//   } else {
-//       console.log("menu");
-//     document.getElementById("myTopnav").style.top = "-50px";
-//   }
-// }
-
-// window.onscroll = function() {myFunction()};
 
 document.addEventListener("DOMContentLoaded", function () {
   window.addEventListener("scroll", myFunction);
